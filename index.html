@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Siam Computing | UI Task</title>
+      <meta name="description" content="Siam Computing" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="icon" type="image/ico" href="assets/img/favicon.ico">
+      <link type="text/css" rel='stylesheet' href='assets/css/spectrum.css'/>
+      <link type="text/css" rel="stylesheet"  href="assets/css/style.css">
+      <script type="text/javascript" src="assets/js/jquery-3.5.1.js"></script>
+      <script type="text/javascript" src='assets/js/spectrum.js'></script>
+   </head>
+   <body>
+      <div class="container">
+         <div class="tab">
+            <button class="tablinks active" onclick="openTitle(event, 'Heading')">Heading</button>
+            <button class="tablinks" onclick="openTitle(event, 'Sidebar')">Sidebar</button>
+            <button class="tablinks" onclick="openTitle(event, 'Main body')">Main body</button>
+         </div>
+         <div id="Heading" class="tabcontent" style="display: block;">
+            <div class="row">
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic-background' value='#ee0518' /> Background color </li>
+                     <li><input type='text' class='basic-menutext' value='#ffffff' /> Menu text color  </li>
+                  </ul>
+               </div>
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic-name' value='#fff' /> Your Name </li>
+                     <li><input type='text' class='basic-designation' value='#fff' /> Designtion </li>
+                  </ul>
+               </div>
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic-contact' value='#fff' /> Contact button color </li>
+                     <li><input type='text' class='basic-buttontext' value='#ee0518' /> Contact button text color  </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div id="Sidebar" class="tabcontent">
+            <div class="row">
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic' value='#ee0518' /> Get in Touch button color </li>
+                     <li><input type='text' class='basic' value='#0f0' /> Get in Touch text color  </li>
+                  </ul>
+               </div>
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic' value='blue' />Website button color </li>
+                     <li><input type='text' class='basic' value='#0f0' /> Website button text color </li>
+                  </ul>
+               </div>
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic' value='#ee0518' /> Phone # color  </li>
+                     <li><input type='text' class='basic' value='#0f0' /> Sidebar color  </li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div id="Main body" class="tabcontent">
+            <div class="row">
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic' value='#ee0518' /> Profile Background color </li>
+                     <li><input type='text' class='basic' value='#0f0' /> Profile text color  </li>
+                  </ul>
+               </div>
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic' value='blue' /> Profile button color </li>
+                     <li><input type='text' class='basic' value='#0f0' /> Profile button text color  </li>
+                  </ul>
+               </div>
+               <div class="option-tab">
+                  <ul>
+                     <li><input type='text' class='basic' value='#ee0518' /> Hyperlink color</li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div class="resume-panel" id="resumepanel">
+            <div class="row header-panel">
+               <div class="col-8">
+                  <div class="row">
+                     <div class="column">
+                        <div class="profile-photo">
+                           <img src="assets/img/img_avatar.png" alt="rounder">
+                        </div>
+                     </div>
+                     <div class="column">
+                        <div class="profile-details">
+                           <h3 id="name-color">Your Name</h3>
+                           <h5 id="designation-color">UI DEVELOPER</h5>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-2 main-navigation">
+                  <div class="row">
+                     <div class="column">
+                        <div class="topnav">
+                           <a class="active"  id="contact-button"><span id="contact-text">Contact Me</span></a>
+                           <a  id="menu-text">Home</a>
+                           <a  id="menu-texts">Get in Touch</a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <script src='assets/js/custom.js'></script>
+   </body>
+</html>
